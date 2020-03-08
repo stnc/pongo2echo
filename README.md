@@ -1,4 +1,4 @@
-# pongorenderer ECHO V4
+# pongo Renderer ECHO V4
 Minimal Pongo2 renderer for Echo that just works.
 
 # Usage  
