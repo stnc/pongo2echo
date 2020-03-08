@@ -29,4 +29,4 @@ func index(c echo.Context) error {
 
 ```
 
-thanks to https://github.com/siredwin/pongorenderer
+thanks to https://github.com/siredwin/pongorenderer (for echo framework v3)
