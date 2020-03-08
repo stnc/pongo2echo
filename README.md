@@ -4,7 +4,7 @@ Minimal Pongo2 renderer for Echo that just works.
 # Usage  
 ## Installation  
 
-`go get "https://github.com/stnc/pongo-renderer-echo4"`
+`go get "https://github.com/stnc/pongo-renderer-echo4/renderer"`
 
 The next step is to define renderer and call it
 
