@@ -1,13 +1,22 @@
-//original code from https://machiel.me/post/pongo2-with-echo-or-net-http/
-package renderer
+package pongo2echo
 
 import (
 	"errors"
 	"io"
 
 	"github.com/flosch/pongo2"
-
 	"github.com/labstack/echo/v4"
+)
+
+type (
+	// Renderer : Custom Renderer for templates
+	Renderer struct{ Debug bool }
+)
+
+var (
+	ctx pongo2.Context
+	t   *pongo2.Template
+	err error
 )
 
 // Render : Custom renderer
