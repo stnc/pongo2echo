@@ -1,4 +1,4 @@
-Pongo2gin
+Pongo2echo
 =========
 
 Package pongo2echo is a template renderer that can be used with the minimalist Go web framework
