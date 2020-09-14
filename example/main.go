@@ -1,29 +1,3 @@
-Pongo2gin
-=========
-
-Package pongo2echo is a template renderer that can be used with the minimalist Go web framework
-https://github.com/labstack/echo it uses the Pongo2 template library
-https://github.com/flosch/pongo2
-
-## Installation  
-
-`go get "github.com/stnc/pongo2echo"`
-
-Requirements
-------------
-
-Requires Echo 4+ or higher and Pongo2.
-
-Usage
------
-
-
-![Screen](https://raw.githubusercontent.com/stnc/pongo2echo/master/example/echoScreen.png)
-
-Basic Example
--------------
-
-```go
 package main
 
 import (
@@ -66,32 +40,3 @@ func main() {
 	// Start server
 	e.Logger.Fatal(e.Start(":8888"))
 }
-
-```
-
-HTML 
-----------------
-
-
-```html
-
-<h1> {{ title }}</h1>
-
-{% for post in posts%}
-<ul>
-  <li>{{post}}</li>
-</ul>
-{% endfor %}
-
-```
-
-
-GoDoc
------
-
-
-Specials Thanks
------
-
-https://github.com/siredwin/pongorenderer Version 3
-https://machiel.me/post/pongo2-with-echo-or-net-http/
