@@ -5,6 +5,8 @@ Package pongo2echo is a template renderer that can be used with the minimalist G
 https://github.com/labstack/echo it uses the Pongo2 template library
 https://github.com/flosch/pongo2
 
+pongo2 is a Django-syntax like templating-language (official website).
+
 ## Installation  
 
 `go get "github.com/stnc/pongo2echo"`
