@@ -66,6 +66,7 @@ func GetAllData(c echo.Context) error {
 func main() {
 	e := echo.New()
 	e.Renderer = mainRenderer //pongo2 init
+	e.Debug = true
 	// http://localhost:8888/home
 	e.GET("/home", GetAllData)
 	// Start server
